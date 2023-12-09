@@ -51,10 +51,6 @@ public class Account {
         return this.balance;
     }
 
-
-
-
-
     public static void main(String[] args) {
         Account a = new Account("12342314",0 );
         a.deposit(500);
